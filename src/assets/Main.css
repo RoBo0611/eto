@@ -1,0 +1,30 @@
+:root {
+    --primary-colour: #606c38;
+    --secondary-colour: #31572C;
+    --action-colour: #bc6c25;
+    --easy-colour: #dda15e;
+    --background-colour: #fefae0;
+    --background-fade: #F5DEB3;
+    --text-colour: #283618;
+}
+
+body {
+    display: flex;
+    font-family: 'Agdasima', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: var(--text-colour);
+    margin: auto;
+   
+
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-colour);
+}
