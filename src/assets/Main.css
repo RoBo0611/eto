@@ -4,7 +4,7 @@
     --action-colour: #bc6c25;
     --easy-colour: #dda15e;
     --background-colour: #fefae0;
-    --background-fade: #F5DEB3;
+    --background-fade: linear-gradient(146deg, #fefae0 0%, #faedcd 100%);
     --text-colour: #283618;
 }
 
@@ -15,7 +15,6 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: var(--text-colour);
     margin: auto;
-   
 
 
 }
