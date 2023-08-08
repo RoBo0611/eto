@@ -1,13 +1,13 @@
 <template>
     <div class="container">
-        <div class="navbar">
+        <!-- <div class="navbar">
             <nav>
                 <a href="/">home</a>
                 <a href="/About">about</a>
                 <a href="/Shop">shop</a>
                 <a href="/HireUs">hire us</a>
             </nav>
-        </div>
+        </div> -->
 
         <div class="nav-collapse" @click="navbarOpen = !navbarOpen">
             <font-awesome-icon class="bars" :icon="['fa', 'bars']" size="2xl" />
@@ -37,39 +37,40 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    z-index: 1;
+    // padding-top: 10rem;
+    // padding-bottom: 10rem;
 
     
+    
 
-    .navbar {
-        display: flex;
-        justify-content: right;
-        align-items: center;
-        width: 100%;
-        // background-color: var(--primary-colour);
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: larger;
-        padding: 1rem;
-        a {
-            padding: 1rem;
-            transition: 1000ms ease-in-out;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    }
+    // .navbar {
+    //     display: flex;
+    //     justify-content: right;
+    //     align-items: center;
+    //     width: 100%;
+    //     text-transform: uppercase;
+    //     font-weight: bold;
+    //     font-size: larger;
+    //     padding: 1rem;
+    //     a {
+    //         padding: 1rem;
+    //         transition: 1000ms ease-in-out;
+    //     }
+    //     a:hover {
+    //         text-decoration: underline;
+    //     }
+    // }
 
-    .nav-collapse {
-        display: none;
-    }
+    // .nav-collapse {
+    //     display: none;
+    // }
 
 
-    @media only screen and (orientation: portrait) {
+    // @media only screen and (orientation: portrait) {
         
-        .navbar {
-            display: none;
-        }
+        // .navbar {
+        //     display: none;
+        // }
 
         .nav-collapse {
             display: flex;
@@ -78,14 +79,19 @@ export default {
             width: 100%;
             align-items: center;
             position: absolute;
-            padding: 2rem;
+            padding: 1rem;
+            
+
+            .bars {
+                color: var(--background-colour);
+            }
 
                 .drop-nav-menu {
                     display: flex;
                     flex-direction: column;  
                     position: absolute;
-                    top: 5rem;
-                    right: 3rem;
+                    top: 4rem;
+                    right: 2rem;
                         #nav-option {
                             display: flex;
                             flex-direction: column;
@@ -93,12 +99,13 @@ export default {
                             text-align: right;
                             font-weight: bold;
                             font-size: xx-large;
+                            color: var(--background-colour);
                             width: 80vw;
-                            height: 10vh;
-                            padding: 1rem;
-                            border: solid 2px var(--primary-colour);
+                            // height: 10vh;
+                            padding: 0.5rem;
+                            // border: solid 2px var(--primary-colour);
                             text-transform: uppercase;
-                            background-color: var(--background-colour);
+                            // background-color: var(--background-colour);
                         }  
                 }
                 .bars {
@@ -110,9 +117,24 @@ export default {
                 } 
             } 
         }
+    // }
+    
+    @media only screen and (orientation: landscape) {
+        .nav-collapse {
+
+        
+        .drop-nav-menu {
+            display: flex;
+            flex-direction: row;
+        
+        #nav-option {
+            display: flex;
+            flex-direction: row;
+            
+        }
     }
-    
-    
+    }
+}
 
 
 </style>

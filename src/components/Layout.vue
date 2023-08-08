@@ -27,6 +27,7 @@ export default {
     display: flex;
     flex-direction: column;
     position: fixed;
+    
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -34,6 +35,7 @@ export default {
 
       .content {
         height: 100%;
+       
       }
 
 }
