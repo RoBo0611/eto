@@ -1,8 +1,9 @@
 <template>
     <div class="footer">
         
-        <p><font-awesome-icon icon="fa-brands fa-facebook" /></p>
-        <p><font-awesome-icon icon="fa-brands fa-instagram" /></p>
+        <p><a href="https://facebook.com/earthtooven"><font-awesome-icon class="socials" icon="fa-brands fa-facebook" size="xl" /></a></p>
+        <p><a href="https://instagram.com/earth_to_oven/"><font-awesome-icon class="socials" icon="fa-brands fa-instagram" size="xl" /></a></p>
+        
     </div>
 </template>
 
@@ -18,7 +19,13 @@
     color: var(--background-colour);
     p {
         padding: 0.5rem;
-        opacity: 40%;
+        a {
+        .socials {
+            opacity: 70%;
+            color: var(--background-colour);
+        }
+        
+    }
     }
 }
 </style>

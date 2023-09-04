@@ -76,6 +76,7 @@ export default {
             display: flex;
             flex-direction: row;
             justify-content: right;
+            right: 0.5rem;
             width: 100%;
             align-items: center;
             position: absolute;

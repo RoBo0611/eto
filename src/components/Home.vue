@@ -2,8 +2,9 @@
     <layout>
         <section class="home-container">
             <div class="home-head">
+                <img class="logo" src="../assets/crop-logo.png" alt="Earth to Oven logo">
                 <h1>Earth to Oven</h1>
-                <h2>seasonl street food</h2>
+                <h2>seasonal street food</h2>
                 <p>seasonal menu <br>
                     locally sourced <br>
                     full of flavour
@@ -58,16 +59,10 @@ export default {
             padding: 0rem;
         }
 
-            .logo {
-                width: 10rem;
-                padding: 1rem;
-                z-index: 1;
-            }
-            .banner {
-                width: 20rem;
-                padding: 1rem;
-                z-index: 1;
-            }
+        .logo {
+            height: 5rem;
+            color: --var(--background-colour);
+        }
     }
 
 }
