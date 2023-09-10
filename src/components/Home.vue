@@ -9,12 +9,6 @@
                     locally sourced <br>
                     full of flavour
                 </p>
-                <!-- <img class="logo" src="../assets/crop-logo.png" alt="logo">
-                <img class="banner" src="../assets/logo-extra.png" alt="earth to oven, seasonal street food"> -->
-            </div>
-            
-            <div>
-                <!-- <img class="bg-image" src="../assets/eto-alfie.png" alt="founder of earth to oven"> -->
             </div>
         </section>
     </layout>
@@ -37,7 +31,7 @@ export default {
     height: 100%;
     width: 100%;
     background-color: var(--action-colour);
-    background-image: url(../assets/eto-alfie.png);
+    // background-image: url(../assets/eto-sun.png);
     background-size: cover;
     background-repeat: none;
     background-blend-mode: multiply;
@@ -51,7 +45,7 @@ export default {
         height: 10rem;
         width: 100%;
         align-items: center;
-        color: var(--background-colour);
+        color: var(--nav-colour);
         font-size: x-large;
         text-transform: uppercase;
         text-align: center;

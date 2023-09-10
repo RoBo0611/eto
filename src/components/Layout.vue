@@ -27,16 +27,11 @@ export default {
     display: flex;
     flex-direction: column;
     position: fixed;
-    
+    overflow: auto;
     height: 100%;
     width: 100%;
     z-index: -1;
     background: var(--background-fade);
-
-      .content {
-        height: 100%;
-       
-      }
 
 }
 

@@ -6,6 +6,7 @@
     --background-colour: #fefae0;
     --background-fade: linear-gradient(146deg, #fefae0 0%, #faedcd 100%);
     --text-colour: #283618;
+    --nav-colour: #4b3f33;
 }
 
 body {
@@ -13,9 +14,9 @@ body {
     font-family: 'Agdasima', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: var(--text-colour);
+    color: var(--nav-colour);
     margin: auto;
-
+    overflow: auto;
 
 }
 

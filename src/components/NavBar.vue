@@ -37,40 +37,7 @@ export default {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    // padding-top: 10rem;
-    // padding-bottom: 10rem;
 
-    
-    
-
-    // .navbar {
-    //     display: flex;
-    //     justify-content: right;
-    //     align-items: center;
-    //     width: 100%;
-    //     text-transform: uppercase;
-    //     font-weight: bold;
-    //     font-size: larger;
-    //     padding: 1rem;
-    //     a {
-    //         padding: 1rem;
-    //         transition: 1000ms ease-in-out;
-    //     }
-    //     a:hover {
-    //         text-decoration: underline;
-    //     }
-    // }
-
-    // .nav-collapse {
-    //     display: none;
-    // }
-
-
-    // @media only screen and (orientation: portrait) {
-        
-        // .navbar {
-        //     display: none;
-        // }
 
         .nav-collapse {
             display: flex;
@@ -84,24 +51,27 @@ export default {
             
 
             .bars {
-                color: var(--background-colour);
+                color: var(--nav-colour);
             }
 
                 .drop-nav-menu {
                     display: flex;
-                    flex-direction: column;  
+                    flex-direction: row;  
                     position: absolute;
-                    top: 4rem;
-                    right: 2rem;
+                    top: 1.5rem;
+                    right: 5rem;
+                    
                         #nav-option {
                             display: flex;
-                            flex-direction: column;
                             justify-content: center;
-                            text-align: right;
+                            text-align: center;
                             font-weight: bold;
-                            font-size: xx-large;
-                            color: var(--background-colour);
-                            width: 80vw;
+                            font-size: x-large;
+                            color: var(--nav-colour);
+                            // background-color: var(--background-colour);
+                            border-radius: 10%;
+                            margin: 1px;
+                            // width: 80vw;
                             // height: 10vh;
                             padding: 0.5rem;
                             // border: solid 2px var(--primary-colour);
@@ -135,6 +105,8 @@ export default {
         }
     }
     }
+
+    
 }
 
 
